@@ -1,0 +1,34 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "css-loader": "^5.2.1",
+    "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "file-loader": "^6.2.0",
+    "three": "^0.126.0",
+    "url-loader": "^4.1.1",
+    "webpack-dev-middleware": "^5.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --progress --watch",
+    "server": "webpack serve --open",
+    "go": "webpack && webpack serve --open"
+  },
+  "author": "",
+  "license": "ISC"
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> 4ba273c9c2899b33ecbc0b0303fba0d94573146e

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+       
+    <meta charset="UTF-8">
+       
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+        <%= htmlWebpackPlugin.options.title %>
+    </title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="root"></div>
+    <div id="scrolls">
+        <select name="number" id="numberselect">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+        </select>
+
+        <input type="range" max="74" min="-24" id="range1">
+        <input type="range" max="90" min="-90" id="range2">
+        <input type="range" max="30" min="-120" id="range3">
+        <input type="range" max="90" min="-90" id="range2">
+        <input type="range" max="90" min="10" id="range5">
+        <input type="range" max="1" min="0.1" step="0.05" id="range6">
+        <input type="range" max="200" min="-200" id="range2">
+        <input type="range" max="200" min="-200" id="range2">
+        <input type="range" max="200" min="-200" id="range2">
+
+    </div>
+
+</body>
+
+</html>
